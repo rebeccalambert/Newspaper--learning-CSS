@@ -1,0 +1,19 @@
+.section-nav nav ul span, .section-nav, nav ul {
+  display:flex;
+  justify-content: center;
+  
+}
+
+.section-nav nav ul li {
+  margin: 10px 8px;
+  font-size: 12px; 
+  font-family: $sans-serif;
+  padding: 3px;
+}
+.link:hover {
+  text-decoration: underline;
+}
+.section-nav nav ul span li:hover {
+  background-color: $light-gray;
+}
+
